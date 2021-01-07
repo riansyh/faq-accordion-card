@@ -34,6 +34,11 @@ body {
 
 p {
   margin: 8px;
+  color: hsl(238, 29%, 16%);
+}
+
+h1 {
+  color: hsl(238, 29%, 16%);
 }
 
 .card {
@@ -54,7 +59,7 @@ p {
 }
 
 .content {
-  flex-basis: 60%;
+  flex-basis: 50%;
   padding: 20px 90px 20px 20px;
   height: 90%;
   overflow: hidden;
@@ -62,7 +67,7 @@ p {
 }
 
 .hero {
-  flex-basis: 40%;
+  flex-basis: 50%;
   position: relative;
   height: 100%;
   overflow: hidden;
@@ -111,12 +116,12 @@ p {
 .imgOne,
 .imgTwo {
   position: absolute;
-  height: 400px;
-  width: 400px;
+  height: 450px;
+  width: 450px;
   background-size: contain;
   background-repeat: no-repeat;
   top: 81px;
-  right: 33px;
+  right: 82px;
 }
 
 .imgOne {
@@ -136,7 +141,7 @@ p {
   background-repeat: no-repeat;
   left: -74px;
   z-index: 99;
-  top: 200px;
+  top: 220px;
 }
 
 @media (max-width: 1080px) {
