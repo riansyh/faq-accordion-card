@@ -148,7 +148,7 @@ p {
   }
 
   .attribution {
-    top: 720px;
+    display: none;
   }
 
   .content {
