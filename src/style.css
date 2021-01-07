@@ -6,6 +6,7 @@
   text-align: center;
   color: white;
   margin: 20px;
+  top: 580px;
 }
 
 .attribution a {
@@ -144,6 +145,10 @@ p {
     width: 330px;
     padding: 20px;
     flex-direction: column;
+  }
+
+  .attribution {
+    top: 798px;
   }
 
   .content {
